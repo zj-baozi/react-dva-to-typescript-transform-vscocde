@@ -1,0 +1,52 @@
+{
+  "name": "react-dva-to-typescript-transform-vscode",
+  "displayName": "react-dva-to-typescript-transform-vscode",
+  "description": "react or dva from javascript to typescript",
+  "version": "0.0.1",
+  "publisher": "zhangjing",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.convertDvaToTypeScript"
+  ],
+  "main": "./out/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.convertDvaToTypeScript",
+        "title": "Convert Dva to TypeScript"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -watch -p ./",
+    "test": "node ./node_modules/vscode/bin/test",
+    "pretest": "npm run compile && npm run lint"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^3.0.2",
+    "@types/glob": "^7.1.1",
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^12.11.7",
+    "@types/vscode": "^1.30.0",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "eslint": "^6.8.0",
+    "glob": "^7.1.6",
+    "mocha": "^7.0.1",
+    "react-dva-to-typescript-transform": "^0.1.2",
+    "typescript": "^3.7.5",
+    "vscode": "^1.1.36",
+    "vscode-test": "^1.3.0"
+  },
+  "dependencies": {
+    "fs-extra": "^4.0.0"
+  },
+  "__npminstall_done": false
+}

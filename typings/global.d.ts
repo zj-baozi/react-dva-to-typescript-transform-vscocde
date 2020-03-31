@@ -1,0 +1,1 @@
+declare module 'react-dva-to-typescript-transform';
