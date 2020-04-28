@@ -1,6 +1,6 @@
 # React Or Dva JavaScript to TypeScript Transformer for VSCode
 
-<img src="https://gw.alipayobjects.com/mdn/rms_a7c1af/afts/img/A*SKHSRL1Q-WIAAAAAAAAAAABkARQnAQ" />
+<img src="https://gw.alipayobjects.com/mdn/rms_a7c1af/afts/img/A*GbZuSbWnB4MAAAAAAAAAAABkARQnAQ" />
 
 **Convert your React or Dva code from JavaScript to TypeScript automatically.**
 

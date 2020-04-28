@@ -2,7 +2,7 @@
   "name": "react-dva-to-typescript-transform-vscode",
   "displayName": "react-dva-to-typescript-transform-vscode",
   "description": "react or dva from javascript to typescript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "zhangjing",
   "license": "MIT",
   "engines": {
